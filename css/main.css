@@ -2,8 +2,6 @@
   font-size: 14pt;
 }
 .menu-toggle{
-  height: 50px;
-  width: 50px;
   margin-top: 3%;
 }
 
@@ -19,9 +17,7 @@
   background-color: rgba(127, 117, 117, 0.423);
 }
 #prova1{
-  height: 45%;
-  width: 38%;
-  margin-left: 3%;
+  width: 120px;
   padding-bottom: 5px;
   background-image: -webkit-linear-gradient( #522b5b, #854f6c, #dfb6b2, #fbe4d8 );
   border-color:  #fbe4d8 ;
