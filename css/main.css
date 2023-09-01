@@ -1,80 +1,206 @@
-*{
-  font-size: 14pt;
-}
-.menu-toggle{
-  margin-top: 3%;
-}
-
-.logo{
-  height: 105px;
-  width: 170px;
-    padding: 0 10px;
-}
-#sidebar-wrapper{
-  background-color: black;
-}
-#sidebar-brand{
-  background-color: rgba(127, 117, 117, 0.423);
-}
-#prova1{
-  width: 120px;
-  padding-bottom: 5px;
-  background-image: -webkit-linear-gradient( #522b5b, #854f6c, #dfb6b2, #fbe4d8 );
-  border-color:  #fbe4d8 ;
-  text-align: center;
-  color: white;
-  text-shadow: 2px 2px #000;
-  border-radius: 10px;
-}
-#prova{
-  background-image: linear-gradient( #522b5b, #854f6c, #dfb6b2, #fbe4d8 );
-  text-align: center;
-  color: white;
-  text-shadow: 2px 2px #000;
-  margin: 0 5px;
-  border-radius: 10px;
-}
-#prova:hover{
-  background-color: rgb(204, 204, 4);
- transition: 0.5s;
-}
-#news{
-  font-family: 'Permanent Marker', cursive;
- text-align: center;
- font-size: 2rem;
- background: -webkit-linear-gradient(45deg, #522b5b, #854f6c, #dfb6b2, #fbe4d8);
- -webkit-background-clip: text;
- -webkit-text-fill-color: transparent;
-}
-h5{
-  border: 2px solid rgba(179, 178, 178, 0.16);
-  background-color: rgba(179, 178, 178, 0.16);
-  box-shadow: 3px 3px rgba(99, 97, 97, 0.5);
-  border-radius:5px;
-  margin-top: 5px;
-  margin-left: 25px;
-  margin-right: 25px;
-  text-align: center;
-}
-.lead{
-  padding-top: 10px;
-}
-.Prenota{
-  margin-top: 5px;
-}
-.contatti{
-    text-decoration: underline;
-    color: rgba(99, 97, 97, 0.938);
+@media only screen and (max-width: 600px) {
+  *{
+    font-size: 14pt;
   }
-  .social{
-    height: 50px;
-    width: 50px;
+  .menu-toggle{
+    margin-top: 3%;
   }
-  .link_social{
-    text-decoration: none;
-    color: black;
+  
+  .logo{
+    height: 105px;
+    width: 170px;
+      padding: 0 10px;
   }
-
-  footer{
+  #sidebar-wrapper{
+    background-color: black;
+  }
+  #sidebar-brand{
+    background-color: rgba(127, 117, 117, 0.423);
+  }
+  #prova1{
+    width: 120px;
+    padding-bottom: 5px;
+    background-image: -webkit-linear-gradient( #522b5b, #854f6c, #dfb6b2, #fbe4d8 );
+    border-color:  #fbe4d8 ;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px #000;
+    border-radius: 10px;
+  }
+  #prova{
+    background-image: linear-gradient( #522b5b, #854f6c, #dfb6b2, #fbe4d8 );
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px #000;
+    margin: 0 5px;
+    border-radius: 10px;
+  }
+  #prova:hover{
+    background-color: rgb(204, 204, 4);
+   transition: 0.5s;
+  }
+  #news{
+    font-family: 'Permanent Marker', cursive;
+   text-align: center;
+   font-size: 2rem;
+   background: -webkit-linear-gradient(45deg, #522b5b, #854f6c, #dfb6b2, #fbe4d8);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+  }
+  h5{
+    border: 2px solid rgba(179, 178, 178, 0.16);
+    background-color: rgba(179, 178, 178, 0.16);
+    box-shadow: 3px 3px rgba(99, 97, 97, 0.5);
+    border-radius:5px;
+    margin-top: 5px;
+    margin-left: 25px;
+    margin-right: 25px;
     text-align: center;
   }
+  .lead{
+    padding-top: 10px;
+  }
+  .Prenota{
+    margin-top: 5px;
+  }
+  .contatti{
+      text-decoration: underline;
+      color: rgba(99, 97, 97, 0.938);
+    }
+    .social{
+      height: 50px;
+      width: 50px;
+    }
+    .link_social{
+      text-decoration: none;
+      color: black;
+    }
+  
+    footer{
+      text-align: center;
+    }
+  
+   
+  
+}
+
+@media only screen and (min-width: 600px) {
+  *{
+    font-size: 14pt;
+  }
+  .menu-toggle{
+    margin-top: 3%;
+  }
+  
+  .logo{
+    height: 105px;
+    width: 170px;
+      padding: 0 10px;
+  }
+  #sidebar-wrapper{
+    background-color: black;
+  }
+  #sidebar-brand{
+    background-color: rgba(127, 117, 117, 0.423);
+  }
+  #prova1{
+    width: 120px;
+    padding-bottom: 5px;
+    background-image: -webkit-linear-gradient( #522b5b, #854f6c, #dfb6b2, #fbe4d8 );
+    border-color:  #fbe4d8 ;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px #000;
+    border-radius: 10px;
+  }
+  #prova{
+    background-image: linear-gradient( #522b5b, #854f6c, #dfb6b2, #fbe4d8 );
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px #000;
+    margin: 0 5px;
+    border-radius: 10px;
+  }
+  #prova:hover{
+    background-color: rgb(204, 204, 4);
+   transition: 0.5s;
+  }
+  #news{
+    font-family: 'Permanent Marker', cursive;
+   text-align: center;
+   font-size: 2rem;
+   background: -webkit-linear-gradient(45deg, #522b5b, #854f6c, #dfb6b2, #fbe4d8);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+  }
+  h5{
+    border: 2px solid rgba(179, 178, 178, 0.16);
+    background-color: rgba(179, 178, 178, 0.16);
+    box-shadow: 3px 3px rgba(99, 97, 97, 0.5);
+    border-radius:5px;
+    margin-top: 5px;
+    margin-left: 25px;
+    margin-right: 25px;
+    text-align: center;
+  }
+  .lead{
+    padding-top: 10px;
+  }
+  .Prenota{
+    margin-top: 5px;
+  }
+  .contatti{
+      text-decoration: underline;
+      color: rgba(99, 97, 97, 0.938);
+    }
+    .social{
+      height: 50px;
+      width: 50px;
+    }
+    .link_social{
+      text-decoration: none;
+      color: black;
+    }
+  
+    footer{
+      text-align: center;
+    }
+  
+}
+
+@media only screen and (min-width: 1200px) {
+  .menu-toggle{
+    margin-top: auto;
+  }
+  .carousel-item{
+    width: 50%;
+    align-items: center;
+    margin-left: 25%;
+  }
+  #prova1{
+    margin-left: 33%; 
+  }
+  .carousel-control-prev{
+    opacity: 100%;
+    margin: 0 20%;
+  }
+  .carousel-control-prev-icon{
+    color: black;
+  }
+  .carousel-control-next{
+    color: #000;
+    opacity: 100%;
+    margin: 0 20%;
+  }
+  #home{
+    margin-left: 90%; 
+    width: 25%;
+  }
+  #maestri{
+    margin-left: 50%; 
+  }
+  .cap{
+    margin-left: 65%;
+    width: 80%;
+  }
+}
